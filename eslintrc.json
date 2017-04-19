@@ -22,6 +22,7 @@
     "comma-dangle": ["error", "always-multiline"],
     "import/no-named-as-default": 0,
     "import/no-unresolved": [2, { "ignore": ["electron"] }],
-    "import/default": 0
+    "import/default": 0,
+    "react/jsx-indent-props": 0
   }
 }
