@@ -19,13 +19,7 @@
     "object-curly-spacing": [2, "always"],
     "max-len": [2, 120],
     "no-multiple-empty-lines": [2, {"max": 2}],
-    "comma-dangle": ["error", {
-      "arrays": "always-multiline",
-      "objects": "always-multiline",
-      "imports": "always-multiline",
-      "exports": "always-multiline",
-      "functions": "always-multiline"
-    }],
+    "comma-dangle": ["error", "always-multiline"],
     "import/no-named-as-default": 0,
     "import/no-unresolved": [2, { "ignore": ["electron"] }],
     "import/default": 0,
