@@ -1,8 +1,8 @@
 {
   "parser"  : "babel-eslint",
   "extends" : [
-    "plugin:import/errors",
-    "plugin:import/warnings"
+    "kentcdodds/possible-errors", "kentcdodds/best-practices",
+    "kentcdodds/es6/possible-errors", "kentcdodds/import"
   ],
   "env": {
     "browser": true,
