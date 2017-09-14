@@ -1,8 +1,7 @@
 {
   "parser"  : "babel-eslint",
   "extends" : [
-    "plugin:import/errors",
-    "plugin:import/warnings"
+    "react-app"
   ],
   "env": {
     "browser": true,
@@ -14,9 +13,6 @@
     "import/extensions": [".js", ".jsx", ".electron.js", ".web.js", ".native.js", ".ios.js", ".android.js"]
   },
   "rules": {
-    "max-len": [2, 120],
-    "no-multiple-empty-lines": [2, {"max": 2}],
-    "comma-dangle": ["error", "always-multiline"],
     "import/no-named-as-default": 0,
     "import/no-unresolved": [2, { "ignore": ["electron"] }],
     "import/default": 0
