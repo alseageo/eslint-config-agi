@@ -1,6 +1,6 @@
 {
-  "parser"  : "babel-eslint",
-  "extends" : [
+  "parser": "babel-eslint",
+  "extends": [
     "standard",
     "standard-react",
     "plugin:import/errors",
@@ -14,15 +14,23 @@
     "mocha": true,
     "node": true
   },
+  "plugins": ["react-hooks"],
   "settings": {
     "import/core-modules": ["electron"],
-    "import/extensions": [".js", ".jsx", ".electron.js", ".web.js", ".native.js", ".ios.js", ".android.js"]
+    "import/extensions": [
+      ".js",
+      ".jsx",
+      ".electron.js",
+      ".web.js",
+      ".native.js",
+      ".ios.js",
+      ".android.js"
+    ]
   },
   "rules": {
-    "object-curly-spacing": [2, "always"],
-    "max-len": [2, 120],
-    "no-multiple-empty-lines": [2, {"max": 2}],
-    "comma-dangle": ["error", "always-multiline"],
+    "no-unused-vars": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
     "import/no-named-as-default": 0,
     "import/no-unresolved": [2, { "ignore": ["electron"] }],
     "import/default": 0,
