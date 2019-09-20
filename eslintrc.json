@@ -25,7 +25,10 @@
       ".native.js",
       ".ios.js",
       ".android.js"
-    ]
+    ],
+    "react": {
+      "version": "detect"
+    }
   },
   "rules": {
     "no-unused-vars": "warn",
@@ -34,6 +37,8 @@
     "import/no-named-as-default": 0,
     "import/no-unresolved": [2, { "ignore": ["electron"] }],
     "import/default": 0,
-    "react/jsx-indent-props": 0
+    "react/jsx-indent-props": 0,
+    "react/jsx-handler-names": 0,
+    "no-prototype-builtins": "warn"
   }
 }
